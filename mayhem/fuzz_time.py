@@ -22,7 +22,7 @@ def TestOneInput(data):
     except (PyTimeException, ValueError):
         return -1
     except (TypeError, IndexError):
-        if random.random() > 0.99:
+        if random.random() > 0.9:
             raise
         return -1
 def main():
